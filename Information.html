@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input[value="hide"]:checked+figure{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    Enter your age <input type="range" min="18" max="47" onchange="out.value=value" >
+<output id="out">
+    47
+</output><br>
+Choose your color <input type="color" name="color" id=""><br>
+Enter your mobile no: INR(+91)<input type="text" pattern="[0-9]{10}">
+<input type="submit" value="submit now">
+<audio src="media/Algorithm.mp3" controls controlslist="nodownlaod" ></audio>
+<video src="media/pexels-vanessa-garcia-6319577.mp4" controls height="500px" ></video>
+Show <input type="radio" name="list" value="show">
+Hide <input type="radio" name="list" value="hide">
+<figure>
+    <img src="Images/pexels-cameron-casey-1687093.jpg" alt="img" height="500px">
+</figure>
+
+</body>
+
+</html>

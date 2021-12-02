@@ -1,0 +1,9 @@
+body{
+    background-color: brown;
+}
+p{
+    border: 10px dashed blue;
+    color: chartreuse;
+    text-align: center;
+    height: 10px;
+}
